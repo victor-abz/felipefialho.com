@@ -157,6 +157,22 @@ Essa é uma maneira mais poderosa de fornecer contexto. Isso permite que o LLM a
 
 A capacidade de "ver" os arquivos de contexto permite que o LLM gere um código que se integra perfeitamente ao seu projeto existente, economizando tempo de refatoração e minimizando erros.
 
+**7. Use MCP Servers para enriquecer o contexto**
+
+MCP Servers são uma forma de estender o poder das LLMs. Eles são servidores que podem ser acessados via API e que podem fornecer contexto adicional para o LLM.
+
+Um bom exemplo é o [context7](https://github.com/upstash/context7), que tem integração com todos os principais LLMs, ferramentas, editores e ainda tem uma API para criar seus próprios servers.
+
+Com isso é possível enriquecer o contexto de forma mais eficiente e customizada, mantendo um prompt com linguagem mais natural na maioria das vezes
+
+> Create a Next.js middleware that checks for a valid JWT in cookies and redirects unauthenticated users to `/login`. use context7
+
+> Configure a Cloudflare Worker script to cache JSON API responses for five minutes. use context7
+
+Nesse cenário o Context7 faz fetch de exemplos de código e documentação diretamente no contexto do LLM.
+
+Sensacional né?
+
 ### Exemplo 1: Gerando Código com Especificações Detalhadas
 
 Você precisa de uma função em JavaScript para validar um endereço de e-mail. Uma solicitação simples pode até funcionar, mas não garante a precisão ou o formato do código.
