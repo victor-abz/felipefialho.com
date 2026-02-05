@@ -1,7 +1,7 @@
 ---
 title: 'Stack com AI que vai elevar seu trampo como dev'
 date: 2026-02-05 00:00:01
-description: 'Usando o Claude Code como se tivesse um time de especialistas do lado"
+description: 'Bora fazer o Claude Code funcionar como se você tivesse um time de especialistas do seu lado 🚀'
 image: /assets/2025-08-20-cover.jpg
 tags: ['ai', 'front-end', 'programação']
 ---
